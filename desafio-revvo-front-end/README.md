@@ -7,8 +7,8 @@ Certifique-se de que estas versões estão instaladas antes de prosseguir.
 ## Instalação
 1. No terminal, navegue até o diretório do projeto.
 2. Execute o comando abaixo para instalar as dependências:
-   ``bash
-   npm install
+   `bash`
+   `npm install`
 
 ## Rodar Projeto
-1. Npm start
+1. Execute o comando para rodar o projeto `npm start` 
