@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar__logo {
+  height: 50px;
+}
+
+.dropdownTrigger {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrowOpen {
+  transform: rotate(180deg); 
+}
+
+.dropdown__user{
+  display: flex;
+  gap: 20px;
+}
+
+.dropdown__user span {
+  cursor: pointer;
+}
+
+.dropdown__user__align{
+display: flex;
+flex-direction: column;
+}
+
+.loginButtons{
+  margin-top: 6px;
+}
+.welcome{
+  font-size: 12px;
+  color: #b5b5b5;
+  padding:4px;
+}
+.input__search__login
+{
+  display: flex;
+  gap: 20px;
+}
+
+.arrow {
+  transition: transform 0.3s ease; /* Animação suave */
+}
+
+.arrowOpen {
+  transform: rotate(180deg); /* Rotação de 180 graus quando o dropdown está aberto */
+}
+
+
+.navbar__search input {
+  padding: 10px 10px !important;
+  border: 1px solid #ddd !important;
+  border-radius: 23px !important;
+  background-color: #efefef !important;
+  width: 250px !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar__user {
+  display: block;
+  align-items: center;
+}
+
+.navbar__userAvatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.ant-input::placeholder {
+    color: #939393 !important; 
+    font-style: italic !important; 
+  }
+
+  @media (max-width: 640px) {
+    .mobileItens { 
+      display: none;
+    }
+
+    .avatar {
+      display: none;
+    }
+  }

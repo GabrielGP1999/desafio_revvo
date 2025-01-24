@@ -1,0 +1,28 @@
+.card__new_course {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px dashed #9f9f9f;
+  border-radius: 0px;
+  width: 350px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.card__new_course:hover {
+  border: 2px dashed #9f9f9f;
+  transform: scale(1.02);
+}
+
+.card__new_course_label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+  color: #9f9f9f;
+}

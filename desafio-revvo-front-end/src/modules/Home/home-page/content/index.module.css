@@ -1,0 +1,38 @@
+.home__courses {
+  padding: 15px 100px;
+}
+
+.home__header {
+  color: #6c6c6c;
+  font-size: 25px;
+  margin: 15px 0 10px 15px;
+}
+
+.home__grid {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.noCourses {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.loading {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.noCoursesContainer {
+  flex-direction: column;
+  margin: 15px;
+}

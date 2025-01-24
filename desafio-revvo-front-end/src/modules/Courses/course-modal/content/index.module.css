@@ -1,0 +1,88 @@
+.customModal .ant-modal-content {
+  padding: 0 !important;
+}
+
+.customModal .ant-modal-content:where {
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 0 !important;
+  background-color: white;
+}
+
+.customModal .ant-modal-body {
+  padding: 0;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5c5c;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.modalCloseBtn:hover {
+  background: #ff5c5c;
+  color: white;
+}
+
+.modalImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 0 0 0;
+}
+
+.modalTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.modalDescription {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin: 0 20px 20px 20px;
+  line-height: 1.5;
+}
+
+.modalActionBtn {
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 15px 50px;
+}
+
+.modalActionBtn:hover {
+  background-color: #0056b3;
+}
+
+.courseContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 30px;
+}

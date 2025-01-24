@@ -1,0 +1,43 @@
+/* Section */
+.section {
+  display: flex;
+  align-items: center;
+  height: 70vh; /* Ajustado dinamicamente no React */
+  background-color: var(--color-bg-container);
+  padding: var(--size-xxl) 0;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 380px; /* Largura fixa */
+  padding: var(--padding-xl) var(--padding);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: var(--margin-xl);
+}
+
+/* Title */
+.title {
+  font-size: var(--font-size-heading2); /* Ajustado dinamicamente no React */
+}
+
+/* Text */
+.text {
+  color: var(--color-text-secondary);
+}
+
+/* Signup */
+.signup {
+  margin-top: var(--margin-lg);
+  text-align: center;
+  width: 100%;
+}
+
+/* Forgot Password */
+.forgotPassword {
+  float: right;
+}
